@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
 @app.route('/')
 def index():
-    return "<h1>Python Operations with Flask Routing and Views</h1>"
+    return "<h1>Python Operations with Flask Routing and View</h1>"
 
 @app.route('/print/<text>')
 def print_string(text):
